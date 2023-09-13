@@ -21,15 +21,6 @@ const addPerson = async (req, res) => {
     } 
 }
 
-const getAllPerson = async (req, res) => {
-    try {
-        const allPersons = await Person.find({});
-        res.send(allPersons)
-    } catch (err) {
-        res.send(err)
-    }
-}
-
 const getPerson = async (req, res) => {
     try {
         const id = req.params.user_id;
@@ -76,7 +67,6 @@ const deletPerson = async (req, res) => {
 module.exports = {
     addPerson,
     updatePerson,
-    getAllPerson,
     getPerson,
     deletPerson
 }
