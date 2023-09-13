@@ -7,6 +7,7 @@ const connectToDb = require('./models/connectToDb');
 const routes = require('./routes/routes') 
 
 app.use(bodyParser.urlencoded({extended:true}));
+app.use(express.json());
 app.use(routes)
 
 app.listen(PORT, () => console.log(`server up and running on port ${PORT}`));
