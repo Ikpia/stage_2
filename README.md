@@ -1,7 +1,8 @@
 
 ## REST API THAT PERFORMS CRUD OPERATIONS
     
-This is a rest api that perform crud operations.
+This is a rest api that perform crud operations, 
+click https://drive.google.com/file/d/1UjUldO5Lex0EQSa3JONV2gYOX4TEbeLj/view?usp=sharing to see the uml class diagrama.
  
 
 ## Features
